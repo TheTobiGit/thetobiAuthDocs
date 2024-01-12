@@ -23,7 +23,7 @@
   </section>
 </template>
 
-<script lang="ts" setup></script>
+<script setup></script>
 
 <style scoped>
 p,
