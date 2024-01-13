@@ -46,9 +46,11 @@ const colorMode = useColorMode();
 
 function isLight() {
   colorMode.value = "light";
+  colorMode.preference = "light";
 }
 
 function isDark() {
   colorMode.value = "dark";
+  colorMode.preference = "dark";
 }
 </script>

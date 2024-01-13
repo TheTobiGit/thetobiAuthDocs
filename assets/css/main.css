@@ -32,3 +32,22 @@ a {
     @apply dark:text-green-400;
     @apply text-green-500;
   }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .textCard {
+    @apply self-start;
+    @apply flex;
+    @apply flex-col;
+    @apply gap-2;
+    @apply text-balance
+  }
+
+  .list {
+    @apply list-inside;
+    @apply list-disc
+  }

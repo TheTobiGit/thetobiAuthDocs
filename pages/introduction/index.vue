@@ -75,22 +75,24 @@
         </ul>
       </div>
       <div class="w-full border mb-5 border-gray-500"></div>
-      <div
-        class="border rounded-md p-5 flex flex-col items-end self-end gap-3 cursor-pointer hover:bg-gray-100 dark:hover:bg-[#2f3155d9] border-gray-500 navBox group lg:max-w-[20vw]"
+      <NuxtLink to="/setting-up"
+        ><div
+          class="border rounded-md p-5 flex flex-col items-end self-end gap-3 cursor-pointer hover:bg-gray-100 dark:hover:bg-[#2f3155d9] border-gray-500 navBox group lg:max-w-[20vw]"
+        >
+          <Icon
+            name="material-symbols-light:arrow-circle-right-outline-rounded"
+            size="2rem"
+            class="icon group-hover:text-green-500"
+          />
+          <p class="text-sm dark:text-white font-bold">
+            Setting up a Supabase Project
+          </p>
+          <p class="text-[12px] text-right">
+            Create a Supabase project and configure it to suit the needs of your
+            Nuxt application.
+          </p>
+        </div></NuxtLink
       >
-        <Icon
-          name="material-symbols-light:arrow-circle-right-outline-rounded"
-          size="2rem"
-          class="icon group-hover:text-green-500"
-        />
-        <p class="text-sm dark:text-white font-bold">
-          Setting up a Supabase Project
-        </p>
-        <p class="text-[12px] text-right">
-          Create a Supabase project and configure it to suit the needs of your
-          Nuxt application.
-        </p>
-      </div>
     </div>
   </section>
 </template>
