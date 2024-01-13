@@ -52,9 +52,7 @@
           </li>
 
           <li>
-            <NuxtLink to="/installing-supabase-model"
-              >2. Installing the Supabase Nuxt Module:</NuxtLink
-            >
+            <a>2. Installing the Supabase Nuxt Module:</a>
             Learn how to integrate Supabase into your Nuxt project using the
             official Supabase Nuxt module.
           </li>

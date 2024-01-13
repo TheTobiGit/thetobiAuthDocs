@@ -1,6 +1,6 @@
 <template>
   <section
-    class="h-[10svh] flex justify-center items-center px-2 top-0 sticky dark:bg-[#040620d9] header"
+    class="h-[10svh] flex justify-center items-center px-2 top-0 sticky dark:bg-[#0406208d] header"
   >
     <div
       class="flex justify-between items-center w-full 2xl:max-w-[1440px] px-2"
@@ -28,7 +28,9 @@
             color="gray"
           />
         </div>
-        <Icon name="mdi:github" size="1.5rem " color="gray" />
+        <a href="https://github.com/TheTobiGit/thetobiAuthDocs" target="_blank"
+          ><Icon name="mdi:github" size="1.5rem " color="gray"
+        /></a>
       </div>
     </div>
   </section>
@@ -38,6 +40,8 @@
 .header {
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
+
+  @apply dark:backdrop:blur-[2px];
 }
 </style>
 

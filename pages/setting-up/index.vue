@@ -95,7 +95,7 @@
           </div></NuxtLink
         >
 
-        <NuxtLink to="/installing-supabase-model"
+        <a to="/installing-supabase-model"
           ><div
             class="border rounded-md p-5 flex flex-col items-end gap-3 cursor-pointer hover:bg-gray-100 dark:hover:bg-[#2f3155d9] border-gray-500 navBox group lg:max-w-[20vw]"
           >
@@ -110,7 +110,7 @@
             <p class="text-[12px] text-right dark:text-white text-black">
               Learn how to integrate Supabase into your Nuxt project
             </p>
-          </div></NuxtLink
+          </div></a
         >
       </div>
     </div>
