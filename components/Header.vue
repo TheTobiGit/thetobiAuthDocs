@@ -12,7 +12,7 @@
         </div></NuxtLink
       >
       <div class="flex items-center gap-3">
-        <div @click="isLight" class="hidden dark:flex">
+        <div @click="isLight" class="hidden dark:flex transition">
           <Icon
             name="material-symbols:sunny"
             size="1.5rem"
@@ -20,7 +20,7 @@
             color="gray"
           />
         </div>
-        <div @click="isDark" class="flex dark:hidden">
+        <div @click="isDark" class="flex dark:hidden transition">
           <Icon
             name="material-symbols:dark-mode"
             size="1.5rem"

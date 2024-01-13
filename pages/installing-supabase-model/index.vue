@@ -5,21 +5,46 @@
 
       <div class="w-full border mb-5 border-gray-500"></div>
 
+      <p class="text left text-balance self-start">
+        Now that you have a Supabase project set up, it's time to integrate it
+        into your Nuxt.js application using the official Supabase Nuxt module.
+      </p>
+
       <div class="textCard">
-        <h2>Sign Up for a Supabase Account</h2>
-        <ul class="list">
-          <li>
-            Visit the <a href="https://supabase.com">Supabase website </a>and
-            click on the "Start for free" button.
-          </li>
+        <h2>Create a Nuxt.js Project</h2>
+        <div class="textCard mb-4">
+          <p class="font-bold">Prerequisites</p>
+          <ul class="list before:text-[#f8fafc]">
+            <li>
+              <b>Node.js </b>-
+              <span
+                class="p-1 border border-dashed dark:bg-[#1d293b] bg-[#f8fafc] rounded-sm text-bold border-gray-400"
+                >v18.0.0</span
+              >
+              or newer
+            </li>
+            <li>
+              <b>Text editor </b>- Official Nuxt Documentation recommenda
+              <a href="https://code.visualstudio.com/">Visual Studio Code</a>
+              with the
+              <a
+                href="https://marketplace.visualstudio.com/items?itemName=Vue.volar"
+                >Volar Extension</a
+              >
+            </li>
+            <li><b>Terminal</b> - In order to run Nuxt commands</li>
+          </ul>
+        </div>
 
-          <li>
-            Create a Supabase account by providing your email address, password,
-            and organization details.
-          </li>
-
-          <li>Once registered, log in to your Supabase account.</li>
-        </ul>
+        <p>
+          If you don't have a Nuxt.js project yet, create one using the
+          following command in your terminal:
+        </p>
+        <pre class="bg-[#f8fafc] text-green-500">
+  <code>
+    npx nuxi@latest init project-name
+  </code>
+</pre>
       </div>
 
       <div class="textCard">

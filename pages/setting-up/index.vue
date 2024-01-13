@@ -79,15 +79,17 @@
       <div class="flex flex-col lg:flex-row gap-6 self-end">
         <NuxtLink to="/introduction"
           ><div
-            class="border rounded-md p-5 flex flex-col items-start gap-3 cursor-pointer hover:bg-[#2f3155d9] border-gray-500 navBox group lg:max-w-[20vw]"
+            class="border rounded-md p-5 flex flex-col items-start gap-3 cursor-pointer hover:bg-gray-100 dark:hover:bg-[#2f3155d9] border-gray-500 navBox group lg:max-w-[20vw]"
           >
             <Icon
               name="material-symbols-light:arrow-circle-left-outline-rounded"
               size="2rem"
-              class="icon group-hover:text-green-500"
+              class="icon group-hover:text-green-500 dark:text-white text-black"
             />
-            <p class="text-sm dark:text-white font-bold">Introduction</p>
-            <p class="text-[12px] text-left">
+            <p class="text-sm dark:text-white text-black font-bold">
+              Introduction
+            </p>
+            <p class="text-[12px] text-left dark:text-white text-black">
               Learn how to integrate Supabase into your Nuxt project
             </p>
           </div></NuxtLink
@@ -95,17 +97,17 @@
 
         <NuxtLink to="/installing-supabase-model"
           ><div
-            class="border rounded-md p-5 flex flex-col items-end gap-3 cursor-pointer hover:bg-[#2f3155d9] border-gray-500 navBox group lg:max-w-[20vw]"
+            class="border rounded-md p-5 flex flex-col items-end gap-3 cursor-pointer hover:bg-gray-100 dark:hover:bg-[#2f3155d9] border-gray-500 navBox group lg:max-w-[20vw]"
           >
             <Icon
               name="material-symbols-light:arrow-circle-right-outline-rounded"
               size="2rem"
-              class="icon group-hover:text-green-500"
+              class="icon group-hover:text-green-500 dark:text-white text-black"
             />
-            <p class="text-sm dark:text-white font-bold">
+            <p class="text-sm dark:text-white text-black font-bold">
               Installating the Supabase Nuxt Module
             </p>
-            <p class="text-[12px] text-right">
+            <p class="text-[12px] text-right dark:text-white text-black">
               Learn how to integrate Supabase into your Nuxt project
             </p>
           </div></NuxtLink

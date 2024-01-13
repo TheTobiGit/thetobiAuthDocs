@@ -52,9 +52,11 @@
           </li>
 
           <li>
-            <a>2. Installing the Supabase Nuxt Module:</a> Learn how to
-            integrate Supabase into your Nuxt project using the official
-            Supabase Nuxt module.
+            <NuxtLink to="/installing-supabase-model"
+              >2. Installing the Supabase Nuxt Module:</NuxtLink
+            >
+            Learn how to integrate Supabase into your Nuxt project using the
+            official Supabase Nuxt module.
           </li>
 
           <li>
@@ -75,19 +77,19 @@
         </ul>
       </div>
       <div class="w-full border mb-5 border-gray-500"></div>
-      <NuxtLink to="/setting-up"
+      <NuxtLink class="self-end" to="/setting-up"
         ><div
-          class="border rounded-md p-5 flex flex-col items-end self-end gap-3 cursor-pointer hover:bg-gray-100 dark:hover:bg-[#2f3155d9] border-gray-500 navBox group lg:max-w-[20vw]"
+          class="border rounded-md p-5 flex flex-col items-end gap-3 cursor-pointer hover:bg-gray-100 dark:hover:bg-[#2f3155d9] border-gray-500 navBox group lg:max-w-[20vw]"
         >
           <Icon
             name="material-symbols-light:arrow-circle-right-outline-rounded"
             size="2rem"
-            class="icon group-hover:text-green-500"
+            class="icon group-hover:text-green-500 dark:text-white text-black"
           />
-          <p class="text-sm dark:text-white font-bold">
+          <p class="text-sm dark:text-white text-black font-bold">
             Setting up a Supabase Project
           </p>
-          <p class="text-[12px] text-right">
+          <p class="text-[12px] text-right dark:text-white text-black">
             Create a Supabase project and configure it to suit the needs of your
             Nuxt application.
           </p>

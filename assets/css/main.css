@@ -2,7 +2,11 @@
 
 body {
     font-family: 'Roboto Mono', monospace;
+    
+}
 
+.toggleAnimation {
+    transition: background-color 1s;
 }
 
 h1 {
@@ -30,7 +34,7 @@ h2 {
 
 a {
     @apply dark:text-green-400;
-    @apply text-green-500;
+    @apply text-green-600;
   }
 
   ul {
