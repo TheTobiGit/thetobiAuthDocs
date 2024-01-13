@@ -76,7 +76,7 @@
         using the Supabase Nuxt module.
       </p>
 
-      <div class="flex gap-6 self-end">
+      <div class="flex flex-col lg:flex-row gap-6 self-end">
         <NuxtLink to="/introduction"
           ><div
             class="border rounded-md p-5 flex flex-col items-start gap-3 cursor-pointer hover:bg-[#2f3155d9] border-gray-500 navBox group lg:max-w-[20vw]"
